@@ -1,20 +1,15 @@
-let locData = "https://api.waqi.info/v2/map/bounds/?latlng="+location+"&token=5a2a13ac22a673a3b20c8d4d161cb12623e0a237";
 
-const locations = {
-  Beijing: "39.379436,116.091230,40.235643,116.784382",
-  Bucharest:
-      "44.50858895332098,25.936583232631918,44.389144165939854,26.300222840009447",
-  London: "51.69945358064312,-0.5996591366844406,51.314690280921894,0.3879568209963314",
-  Bangalore:
-      "13.106898860432123,77.38497433246386,12.825861486200223,77.84571346820603",
-  Gdansk: "54.473394,18.380491,54.272590,18.981516",
-  Paris: "49.073532,1.998255,48.709611,2.668288",
-  "Los Angeles": "34.337507,-118.710957,33.706749,-118.132830",
-  Seoul: "37.684622,126.853182,37.399941,127.209392",
-  Jakarta: "-6.080818,106.663287,-6.367509,106.994250",
-};
 
-function setup() {
+function changeLocation(selectedCity){
+  console.log(selectedCity);
+  let locData = "https://api.waqi.info/v2/map/bounds/?latlng="+selectedCity+"&token=5a2a13ac22a673a3b20c8d4d161cb12623e0a237";
+  console.log(locData);
+  setup(locData);
+  stationInfo(locData);
+  bubblePlot(locData);
+}
+
+function setup(locData) {
    let dropDown = d3.select("#selDataset");
    d3.json(locData).then(function(data) {
     console.log(data);
@@ -38,7 +33,7 @@ function setup() {
 
 setup();
 
-function stationInfo (selectedStation) {
+function stationInfo (selectedStation, locData) {
   d3.json(locData).then(function(data) {
     let stationList = {};
     stationList = data;
