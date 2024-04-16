@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Leaflet Map</title>
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 p-5 text-center bg-light">
+        <h1>Air Quality Around the World</h1>
+        <p>Use the interactive map below to explore air quality data</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-9">
+        <!-- The div that holds our map -->
+        <div id="leaflet-map" style="height: 500px;"></div>
+      </div>
+      <div class="col-md-3">
+        <div class="mt-4">
+          <select id="location-dropdown" onchange="changeLocation(this.value)">
+            <option value="">Select Location</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center mt-4">
+        <div id="leaflet-map-bounds"></div>
+        <div id="leaflet-map-error" class="text-danger mt-2"></div>
+      </div>
+    </div>
+  </div>
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <!-- Your JavaScript file -->
+  <script src="logic.js"></script>
+</body>
+</html>
