@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AQI</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+  crossorigin=""/>
+    <!-- Leaflet Extra Markers CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-extra-markers/dist/css/leaflet.extra-markers.min.css">
+    <meta http-equiv="Content-Type" content="text/css">
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+ 
+  <link rel="stylesheet" href="./static/css/style.css">
+</head>
+
+<body>
+    <!-- The div that holds our map -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 p-5 text-center bg-light">
+          <h1>AQI Global Overview</h1>
+          <p>Worldwide overview of AQI by specific pollutant.</p>
+        </div>
+      </div>
+      <div class="row">
+    <div id="map"style="height: 500px;"></div>
+      <!-- External Libraries -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+
+  <!-- Turf JS -->
+  <script src="https://unpkg.com/@turf/turf@6/turf.min.js"></script>
+
+</div>
+</div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 p-5 text-center bg-light">
+        <h1>Air Quality City Closeups</h1>
+        <p>Use the map below to explore AQI in specific cities.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-9">
+        <!-- The div that holds our map -->
+        <div id="leaflet-map" style="height: 500px;"></div>
+      </div>
+      <div class="col-md-3">
+        <div class="mt-4">
+          <select id="location-dropdown">
+            <option value="">Select Location</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center mt-4">
+        <div id="leaflet-map-bounds"></div>
+        <div id="leaflet-map-error" class="text-danger mt-2"></div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 p-4 text-center bg-light">
+        <h1>Detailed Beijing AQI by Station</h1>
+        <p>Info and plot of AQI by specific pollutants for the city of Beijing.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-5">
+        <div class="card card-body bg-light">
+          <h6>Station name:</h6>
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div>
+        <div class="card card-primary">
+          <div class="card-header">
+            <h5 class="card-title text-center bg-light">Station Info</h5>
+          </div>
+          <div id="station-info" class="card-body"></div>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div id="bubble"></div>
+      </div>
+
+    </div>
+
+
+    <div class="row">
+      
+    </div>
+  </div>
+
+  <script src="./static/js/logic.js"></script>
+  <script src="./static/js/adlogic.js"></script>
+  <script src="./static/js/bubble_app.js"></script>
+
+
+</body>
+
+</html>
