@@ -1,13 +1,9 @@
 
+const locData = "https://api.waqi.info/v2/map/bounds/?latlng=39.379436,116.091230,40.235643,116.784382&token=5a2a13ac22a673a3b20c8d4d161cb12623e0a237";
 
-function changeLocation(selectedCity){
-  console.log(selectedCity);
-  let locData = "https://api.waqi.info/v2/map/bounds/?latlng="+selectedCity+"&token=5a2a13ac22a673a3b20c8d4d161cb12623e0a237";
-  console.log(locData);
   setup(locData);
   stationInfo(locData);
   bubblePlot(locData);
-}
 
 function setup(locData) {
    let dropDown = d3.select("#selDataset");
@@ -28,12 +24,13 @@ function setup(locData) {
           let initialStation = names[0]
             bubblePlot(initialStation);
             stationInfo(initialStation);
+            console.log(initialStation);
     });
 };
 
 setup();
 
-function stationInfo (selectedStation, locData) {
+function stationInfo (selectedStation) {
   d3.json(locData).then(function(data) {
     let stationList = {};
     stationList = data;
@@ -49,8 +46,24 @@ function stationInfo (selectedStation, locData) {
       for (key in stationData) {
       if (key!=="station") {card.append("h6").text(key+": "+stationData[key])}
       };
-  });
-};
+      console.log(stationData);
+      if (stationData.aqi <51)
+        card.append("h6").text("Air quality is good.");
+      else if (stationData.aqi <101)
+        card.append("h6").text("Air quality is moderate.");  
+        else if (stationData.aqi <151)
+        card.append("h6").text("Air quality is unhealthy for sensitive groups.");
+        else if (stationData.aqi <201)
+        card.append("h6").text("Air quality is unhealthy.");
+        else if (stationData.aqi <301)
+        card.append("h6").text("Air quality is very unhealthy.");
+        else if (stationData.aqi <501)
+        card.append("h6").text("Air quality is hazardous.");
+        else 
+        card.append("h6").text("Air quality is beyond AQI.");        
+      });
+  };
+
 
 function bubblePlot (selectedStation) {
   d3.json(locData).then(function(data) {
@@ -123,6 +136,9 @@ console.log(apiData.data.iaqi);
   
 });
 };
+
+
+
 function optionChanged(selectedStation) {
   stationInfo(selectedStation);
   bubblePlot(selectedStation);
