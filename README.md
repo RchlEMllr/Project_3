@@ -14,22 +14,34 @@ The second map offers a more focused perspective by highlighting air quality dat
 Last, but not least, the third map zooms in further, concentrating on individual stations. A dropdown menu facilitates the selection of station names, generating a bubble map illustrating pollutant levels visually. Station information, including location, air quality score, and health description, is also provided for detailed analysis. Overall, these three map setups cater to various levels of exploration, from a global overview to localized insights, offering valuable data for environmental monitoring and analysis.
 
 📦 Commands:
-HTML Starter commands – here&nbsp;
-<!DOCTYPE html> here&nbsp;
-<html lang="en"> here&nbsp;
+<!DOCTYPE html>
+<html lang="en">
 
-<head> here&nbsp;
-  <meta charset="UTF-8">here&nbsp;
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">here&nbsp;
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">here&nbsp;
-  <title>Leaflet Map with Turf.js</title>here&nbsp;
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Leaflet Map with Turf.js</title>
 
-Importing Leaflet CSS here&nbsp;
+Importing Leaflet CSS 
 
 <!-- Leaflet CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" here&nbsp;
-    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" 
-    crossorigin="" />here&nbsp;
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin="" />
+
+
+Importing External libraries 
+<!-- Turf JS -->
+  <script src="https://unpkg.com/@turf/turf@6/turf.min.js"></script>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+
+JS libraries 
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="./static/js/logic.js"></script>
+<script src="./static/js/bubble_app.js"></script>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script
+
 
 
 ### External Libraries
