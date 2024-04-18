@@ -32,68 +32,46 @@ Importing Leaflet CSS here&nbsp;
     crossorigin="" />here&nbsp;
 
 
-Importing External libraries here&nbsp;
-<!-- Turf JS -->
-  <script src="https://unpkg.com/@turf/turf@6/turf.min.js"></script>here&nbsp;
-  <script src="https://d3js.org/d3.v7.min.js"></script>here&nbsp;
+### External Libraries
 
-JS libraries here&nbsp;
-<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script> here&nbsp;
-<script src="./static/js/logic.js"></script> here&nbsp;
-<script src="./static/js/bubble_app.js"></script> here&nbsp;
-<script src="https://cdn.plot.ly/plotly-latest.min.js"></script here&nbsp;
+- [Turf.js](https://unpkg.com/@turf/turf@6/turf.min.js)
+- [D3.js](https://d3js.org/d3.v7.min.js)
+- [Leaflet.js](https://unpkg.com/leaflet/dist/leaflet.js)
+- [Plotly.js](https://cdn.plot.ly/plotly-latest.min.js)
 
+### JavaScript Libraries
 
+- [Logic.js](./static/js/logic.js)
+- [Bubble App.js](./static/js/bubble_app.js)
 
-📄 Resources: here&nbsp;
-API Source - here&nbsp;
-https://aqicn.org/data-platform/token-confirm/159d1cfa-a23b-441c-8774-e327495ab256   here&nbsp;
-https://www.airnow.gov/sites/default/files/2020-05/aqi-technical-assistance-document-sept2018.pdf   here&nbsp;
+### Resources
 
+- [AQI API Source](https://aqicn.org/data-platform/token-confirm/159d1cfa-a23b-441c-8774-e327495ab256)
+- [AQI Technical Assistance Document](https://www.airnow.gov/sites/default/files/2020-05/aqi-technical-assistance-document-sept2018.pdf)
+- [Base Map Tiles](https://aqicn.org/json-api/demo/)
+- [Marker Population Data](https://aqicn.org/json-api/demo/)
+- [Legend](https://leafletjs.com/examples/quick-start/)
+- [Timeout Function](https://aqicn.org/json-api/demo/)
+- [Overlayers](https://leafletjs.com/examples/quick-start/)
+- [Turf Documentation](https://turfjs.org/docs/#featureOf)
+- [Color Brewer](https://colorbrewer2.org/#type=sequential&scheme=YlOrRd&n=6)
+- [GitHub Repository](https://github.com/RchlEMllr/Project_3)
 
-Code Resources: here&nbsp;
+### Additional Resources
 
-Base map Tiles: here&nbsp;
+- [D3 Library](https://d3js.org/)
+- [Leaflet Documentation](https://leafletjs.com/examples/quick-start/)
+- [Dropdown Events](https://leafletjs.com/examples/quick-start/)
+- [Image](https://github.com/RchlEMllr/Project_3/assets/153474345/7ace968a-4879-4efb-9182-ee4ec34af0d8)
 
-https://aqicn.org/json-api/demo/ here&nbsp;
+Leaflet: [Quick Start Guide](https://leafletjs.com/examples/quick-start/)
 
-Populate markers: here&nbsp;
-https://aqicn.org/json-api/demo/  here&nbsp;
+Clicking Function: [04-Evr_D3_Select](#)
 
-legend: here&nbsp;
+Bubble Map: [Module_14_HW Assignment](#)
 
-https://leafletjs.com/examples/quick-start/ here&nbsp;
+Drop Down: [09-Ins_Dropdown_Events](#)
 
-Time out Function: here&nbsp;
-https://aqicn.org/json-api/demo/ here&nbsp;
-
-Var overlayers: here&nbsp;
-https://leafletjs.com/examples/quick-start/ here&nbsp;
-
-TURF: here&nbsp;
-https://turfjs.org/docs/#featureOf here&nbsp;
-
-Color: here&nbsp;
-
-https://colorbrewer2.org/#type=sequential&scheme=YlOrRd&n=6 here&nbsp;
-
-D3 Library: here&nbsp;
-https://d3js.org/ here&nbsp;
-
-Leaflet: here&nbsp;
-https://leafletjs.com/examples/quick-start/ here&nbsp;
-
-Clicking Function: here&nbsp;
-
-04-Evr_D3_Select here&nbsp;
-
-Bubble Map: here&nbsp;
-
-Module_14_HW Assignment  here&nbsp;
-
-Drop Down: here&nbsp;
-
-09-Ins_Dropdown_Events here&nbsp;
-![image](https://github.com/RchlEMllr/Project_3/assets/153474345/7ace968a-4879-4efb-9182-ee4ec34af0d8) here&nbsp;
+![Image](https://github.com/RchlEMllr/Project_3/assets/153474345/7ace968a-4879-4efb-9182-ee4ec34af0d8)
 
 
