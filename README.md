@@ -1,4 +1,4 @@
-README: 
+https://rchlemllr.github.io/Project_3/
 
 🔰 About: 
 For this project, our focus was on analyzing daily air quality worldwide, leveraging the World Air Quality Index APIs as our primary data source. These APIs collect and disseminate data from various agencies globally, contributing to a comprehensive public dataset. Our exploration involved delving into the functionalities offered by the APIs and implementing diverse methods to present and report this data using HTML and JavaScript. Through this project, we aimed to offer insights into air quality trends and variations across different regions, contributing to a better understanding of environmental health on a global scale.
