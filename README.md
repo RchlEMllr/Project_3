@@ -53,45 +53,45 @@ https://www.airnow.gov/sites/default/files/2020-05/aqi-technical-assistance-docu
 
 Code Resources:
 
-Base map Tiles 
+Base map Tiles:
 
 https://aqicn.org/json-api/demo/
 
-Populate markers – 
+Populate markers:
 https://aqicn.org/json-api/demo/
 
-legend – 
+legend:
 
 https://leafletjs.com/examples/quick-start/
 
-Time out Function – 
+Time out Function:
 https://aqicn.org/json-api/demo/
 
-Var overlayers 
+Var overlayers:
 https://leafletjs.com/examples/quick-start/
 
-TURF - 
+TURF:
 https://turfjs.org/docs/#featureOf
 
-Color 
+Color:
 
 https://colorbrewer2.org/#type=sequential&scheme=YlOrRd&n=6
 
-D3 Library – 
+D3 Library:
 https://d3js.org/
 
-Leaflet – 
+Leaflet:
 https://leafletjs.com/examples/quick-start/
 
-Clicking Function – 
+Clicking Function:
 
 04-Evr_D3_Select
 
-Bubble Map – 
+Bubble Map:
 
 Module_14_HW Assignment 
 
-Drop Down – 
+Drop Down:
 
 09-Ins_Dropdown_Events
 ![image](https://github.com/RchlEMllr/Project_3/assets/153474345/7ace968a-4879-4efb-9182-ee4ec34af0d8)
