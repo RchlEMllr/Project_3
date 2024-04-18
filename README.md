@@ -13,37 +13,6 @@ The second map offers a more focused perspective by highlighting air quality dat
 
 Last, but not least, the third map zooms in further, concentrating on individual stations. A dropdown menu facilitates the selection of station names, generating a bubble map illustrating pollutant levels visually. Station information, including location, air quality score, and health description, is also provided for detailed analysis. Overall, these three map setups cater to various levels of exploration, from a global overview to localized insights, offering valuable data for environmental monitoring and analysis.
 
-📦 Commands:
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Leaflet Map with Turf.js</title>
-
-Importing Leaflet CSS 
-
-<!-- Leaflet CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-    crossorigin="" />
-
-
-Importing External libraries 
-<!-- Turf JS -->
-  <script src="https://unpkg.com/@turf/turf@6/turf.min.js"></script>
-  <script src="https://d3js.org/d3.v7.min.js"></script>
-
-JS libraries 
-<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-<script src="./static/js/logic.js"></script>
-<script src="./static/js/bubble_app.js"></script>
-<script src="https://cdn.plot.ly/plotly-latest.min.js"></script
-
-
-
 ### External Libraries
 
 - [Turf.js](https://unpkg.com/@turf/turf@6/turf.min.js)
@@ -67,14 +36,13 @@ JS libraries
 - [Overlayers](https://leafletjs.com/examples/quick-start/)
 - [Turf Documentation](https://turfjs.org/docs/#featureOf)
 - [Color Brewer](https://colorbrewer2.org/#type=sequential&scheme=YlOrRd&n=6)
-- [GitHub Repository](https://github.com/RchlEMllr/Project_3)
+
 
 ### Additional Resources
 
 - [D3 Library](https://d3js.org/)
 - [Leaflet Documentation](https://leafletjs.com/examples/quick-start/)
 - [Dropdown Events](https://leafletjs.com/examples/quick-start/)
-- [Image](https://github.com/RchlEMllr/Project_3/assets/153474345/7ace968a-4879-4efb-9182-ee4ec34af0d8)
 
 Leaflet: [Quick Start Guide](https://leafletjs.com/examples/quick-start/)
 
@@ -84,6 +52,5 @@ Bubble Map: [Module_14_HW Assignment](#)
 
 Drop Down: [09-Ins_Dropdown_Events](#)
 
-![Image](https://github.com/RchlEMllr/Project_3/assets/153474345/7ace968a-4879-4efb-9182-ee4ec34af0d8)
 
 
