@@ -14,86 +14,86 @@ The second map offers a more focused perspective by highlighting air quality dat
 Last, but not least, the third map zooms in further, concentrating on individual stations. A dropdown menu facilitates the selection of station names, generating a bubble map illustrating pollutant levels visually. Station information, including location, air quality score, and health description, is also provided for detailed analysis. Overall, these three map setups cater to various levels of exploration, from a global overview to localized insights, offering valuable data for environmental monitoring and analysis.
 
 📦 Commands:
-HTML Starter commands – 
-<!DOCTYPE html>
-<html lang="en">
+HTML Starter commands – here&nbsp;
+<!DOCTYPE html> here&nbsp;
+<html lang="en"> here&nbsp;
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Leaflet Map with Turf.js</title>
+<head> here&nbsp;
+  <meta charset="UTF-8">here&nbsp;
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">here&nbsp;
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">here&nbsp;
+  <title>Leaflet Map with Turf.js</title>here&nbsp;
 
-Importing Leaflet CSS 
+Importing Leaflet CSS here&nbsp;
 
 <!-- Leaflet CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-    crossorigin="" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" here&nbsp;
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" 
+    crossorigin="" />here&nbsp;
 
 
-Importing External libraries 
+Importing External libraries here&nbsp;
 <!-- Turf JS -->
-  <script src="https://unpkg.com/@turf/turf@6/turf.min.js"></script>
-  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://unpkg.com/@turf/turf@6/turf.min.js"></script>here&nbsp;
+  <script src="https://d3js.org/d3.v7.min.js"></script>here&nbsp;
 
-JS libraries 
-<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-<script src="./static/js/logic.js"></script>
-<script src="./static/js/bubble_app.js"></script>
-<script src="https://cdn.plot.ly/plotly-latest.min.js"></script
-![image](https://github.com/RchlEMllr/Project_3/assets/153474345/0e096ed1-5a7e-410e-b0f6-553ef580229d)
-
-
-📄 Resources:
-API Source - 
-https://aqicn.org/data-platform/token-confirm/159d1cfa-a23b-441c-8774-e327495ab256
-https://www.airnow.gov/sites/default/files/2020-05/aqi-technical-assistance-document-sept2018.pdf
+JS libraries here&nbsp;
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script> here&nbsp;
+<script src="./static/js/logic.js"></script> here&nbsp;
+<script src="./static/js/bubble_app.js"></script> here&nbsp;
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script here&nbsp;
 
 
-Code Resources:
 
-Base map Tiles:
+📄 Resources: here&nbsp;
+API Source - here&nbsp;
+https://aqicn.org/data-platform/token-confirm/159d1cfa-a23b-441c-8774-e327495ab256   here&nbsp;
+https://www.airnow.gov/sites/default/files/2020-05/aqi-technical-assistance-document-sept2018.pdf   here&nbsp;
 
-https://aqicn.org/json-api/demo/
 
-Populate markers:
-https://aqicn.org/json-api/demo/
+Code Resources: here&nbsp;
 
-legend:
+Base map Tiles: here&nbsp;
 
-https://leafletjs.com/examples/quick-start/
+https://aqicn.org/json-api/demo/ here&nbsp;
 
-Time out Function:
-https://aqicn.org/json-api/demo/
+Populate markers: here&nbsp;
+https://aqicn.org/json-api/demo/  here&nbsp;
 
-Var overlayers:
-https://leafletjs.com/examples/quick-start/
+legend: here&nbsp;
 
-TURF:
-https://turfjs.org/docs/#featureOf
+https://leafletjs.com/examples/quick-start/ here&nbsp;
 
-Color:
+Time out Function: here&nbsp;
+https://aqicn.org/json-api/demo/ here&nbsp;
 
-https://colorbrewer2.org/#type=sequential&scheme=YlOrRd&n=6
+Var overlayers: here&nbsp;
+https://leafletjs.com/examples/quick-start/ here&nbsp;
 
-D3 Library:
-https://d3js.org/
+TURF: here&nbsp;
+https://turfjs.org/docs/#featureOf here&nbsp;
 
-Leaflet:
-https://leafletjs.com/examples/quick-start/
+Color: here&nbsp;
 
-Clicking Function:
+https://colorbrewer2.org/#type=sequential&scheme=YlOrRd&n=6 here&nbsp;
 
-04-Evr_D3_Select
+D3 Library: here&nbsp;
+https://d3js.org/ here&nbsp;
 
-Bubble Map:
+Leaflet: here&nbsp;
+https://leafletjs.com/examples/quick-start/ here&nbsp;
 
-Module_14_HW Assignment 
+Clicking Function: here&nbsp;
 
-Drop Down:
+04-Evr_D3_Select here&nbsp;
 
-09-Ins_Dropdown_Events
-![image](https://github.com/RchlEMllr/Project_3/assets/153474345/7ace968a-4879-4efb-9182-ee4ec34af0d8)
+Bubble Map: here&nbsp;
+
+Module_14_HW Assignment  here&nbsp;
+
+Drop Down: here&nbsp;
+
+09-Ins_Dropdown_Events here&nbsp;
+![image](https://github.com/RchlEMllr/Project_3/assets/153474345/7ace968a-4879-4efb-9182-ee4ec34af0d8) here&nbsp;
 
 
