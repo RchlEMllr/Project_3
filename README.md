@@ -11,7 +11,7 @@ This page features three distinct visualizations, each offering a unique perspec
 
 The second map offers a more focused perspective by highlighting air quality data for specific cities. Users can utilize a dropdown menu to select different cities, revealing coordinate map bounds and real-time air quality markers. Each marker displays the last update time, location, and pollutant information upon clicking. 
 
-Last, but not least, the third map zooms in further, concentrating on individual stations in Beijing, China. A dropdown menu facilitates the selection of station names, generating a bubble plot illustrating pollutant levels visually. Station information, including location, air quality score, and applicable health warning, is also provided for detailed analysis. Overall, these three visualizations cater to various levels of exploration, from a global overview to localized insights, offering valuable data for environmental monitoring and analysis.
+Last, but not least, the third visualization zooms in further, concentrating on individual stations in Beijing, China. A dropdown menu facilitates the selection of station names, generating a bubble plot illustrating pollutant levels visually. Station information, including location, air quality score, and applicable health warning, is also provided for detailed analysis. Overall, these three visualizations cater to various levels of exploration, from a global overview to localized insights, offering valuable data for environmental monitoring and analysis.
 
 ### External Libraries
 
